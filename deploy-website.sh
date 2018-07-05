@@ -1,4 +1,4 @@
-cd usr/share/nginx
+cd /usr/share/nginx
 git clone git@github.com:Qcode/Portfolio.git
 cd Portfolio
 yarn
