@@ -46,8 +46,8 @@ router.use((req, res, next) => {
 });
 
 router.post('/portfolio', (req, res) => {
-  shell.exec('./deploy-website.sh');
   res.status(200).send('Deployed website');
+  shell.exec('./deploy-website.sh');
 });
 
 app.use('/webhooks', router);

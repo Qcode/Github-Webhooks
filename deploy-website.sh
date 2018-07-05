@@ -4,6 +4,7 @@ cd Portfolio
 yarn
 yarn run build
 cd ..
+pwd
 rm -rf html/static
 mv -v Portfolio/build/* html
 rm -rf Portfolio
