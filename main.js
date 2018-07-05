@@ -17,7 +17,7 @@ router.use((req, res, next) => {
     });
 });
 
-router.get('portfolio', (req, res) => {
+router.post('portfolio', (req, res) => {
   shell.exec('./depoly-website.sh');
 });
 
